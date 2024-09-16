@@ -1,0 +1,41 @@
+.navbar .logo {
+    float: none;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.navbar ul {
+    float: none;
+    text-align: center;
+    margin:  0 auto;
+}
+
+.navbar ul li {
+    display: inline-block;
+    margin-top: 1em;
+}
+
+#showcase h1 {
+    margin: 0;
+    margin-top: 5em;
+}
+
+.features-card-1 {
+    float: none;
+    width: 100%;
+}
+
+.features-card-2 {
+    float: none;
+    width: 100%;
+}
+
+.features-card-1 .btn{
+display: block;
+margin: 0 auto;
+}
+
+.features-card-2 .btn{
+    display: block;
+    margin: 0 auto;
+    }
