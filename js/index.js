@@ -13,7 +13,7 @@ async function getData(){
                     <div class="features-card-1">
                         <h3>${jsonArr[randIndex][1][1]}</h3>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio accusantium molestias quos delectus repellat. Rem voluptate nesciunt dolorum eaque, magnam odit accusamus corporis nemo expedita itaque, eligendi saepe provident harum!</p>
-                        <button class="btn button-2">learn more</button>
+                        <button class="btn button-2">Precio $${jsonArr[randIndex][2][1]}</button>
                     </div>
                     
                     `)
@@ -49,7 +49,7 @@ const validar = (e) => {
             }
         }
         }
-
+        
     if(!emailValido(email.value)){
         swal({
             title: `El campo ${arrMessages[1]} no tiene el formato permitido`,

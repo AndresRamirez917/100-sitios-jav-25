@@ -28,6 +28,12 @@
     margin-bottom: 2rem;
 }
 
+#features h2 {
+    display: block;
+    margin: o auto;
+    text-align: center;
+}
+
 .features-card-1 h3 {
     width: 300px;
     white-space: nowrap;
