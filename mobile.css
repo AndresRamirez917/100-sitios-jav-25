@@ -23,6 +23,16 @@
 .features-card-1 {
     float: none;
     width: 100%;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 2rem;
+}
+
+.features-card-1 h3 {
+    width: 300px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+  
 }
 
 .features-card-2 {
